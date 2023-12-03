@@ -1,5 +1,8 @@
 name: Action for Azure cloud
-on: push: paths: hello.py
+on:
+  push:
+    paths:
+      - hello.py
 jobs:
   build:
     runs-on: ubuntu-latest
